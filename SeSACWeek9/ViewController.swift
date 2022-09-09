@@ -26,6 +26,39 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let example = User("고래밥")
+        example.bind { name in
+            print("이름이 \(name)으로 바뀌었습니다")
+        }
+        example.value = "칙촉"
+        
+        //배열 들어가도 상관 없다
+        let sample = User([1,2,3,4,5])
+        
+        sample.bind { value in
+            print(value)
+        }
+        
+        var number1 = 10
+        var number2 = 3
+        print(number1 - number2) // 7
+        
+        number1 = 3 // 0
+        number2 = 1 // 2
+        
+        var number3 = Observable(10)
+        var number4 = Observable(3)
+        
+        number3.bind { a in
+            print("Observable", number3.value - number4.value)
+        }
+        
+        number3.value = 100
+        number3.value = 200
+        number3.value = 50
+        
+        
+        
         viewModel.fetchPerson(query: "kim")
         viewModel.list.bind { person in
             print("viewController bind")

@@ -20,9 +20,20 @@
 		817AAEA028BDB75800D5D870 /* URLSession + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817AAE9F28BDB75800D5D870 /* URLSession + Extension.swift */; };
 		817CA5D828BEF8D000E40423 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CA5D728BEF8D000E40423 /* Observable.swift */; };
 		817CA5DA28BEFC0F00E40423 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CA5D928BEFC0F00E40423 /* PersonViewModel.swift */; };
+		817CA62728C037F400E40423 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CA62628C037F400E40423 /* Sample.swift */; };
+		817CA62928C0484700E40423 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CA62828C0484700E40423 /* LoginViewController.swift */; };
+		817CA62B28C049FC00E40423 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CA62A28C049FC00E40423 /* LoginViewModel.swift */; };
+		817CA62D28C05AE400E40423 /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CA62C28C05AE400E40423 /* LottoViewController.swift */; };
+		817CA62F28C05C1900E40423 /* LottoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CA62E28C05C1900E40423 /* LottoViewModel.swift */; };
+		81CC06A928C6D595002A986F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81CC06AB28C6D595002A986F /* Localizable.strings */; };
+		81CC06AF28C6D951002A986F /* LocalizableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC06AE28C6D951002A986F /* LocalizableViewController.swift */; };
+		81CC06B228C6E0D0002A986F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81CC06B428C6E0D0002A986F /* InfoPlist.strings */; };
+		81CFA5A028C1865E00C1C04A /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CFA59F28C1865E00C1C04A /* GCDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		811925DA28C6D03900A190A8 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		811925DB28C6D03900A190A8 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		817AAE7E28BD94D000D5D870 /* SeSACWeek9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACWeek9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		817AAE8128BD94D000D5D870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		817AAE8328BD94D000D5D870 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +49,22 @@
 		817AAE9F28BDB75800D5D870 /* URLSession + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession + Extension.swift"; sourceTree = "<group>"; };
 		817CA5D728BEF8D000E40423 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		817CA5D928BEFC0F00E40423 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		817CA62628C037F400E40423 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		817CA62828C0484700E40423 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		817CA62A28C049FC00E40423 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		817CA62C28C05AE400E40423 /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
+		817CA62E28C05C1900E40423 /* LottoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewModel.swift; sourceTree = "<group>"; };
+		81CC06A328C6D094002A986F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		81CC06A428C6D094002A986F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		81CC06A628C6D1A8002A986F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		81CC06AA28C6D595002A986F /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		81CC06AC28C6D5A9002A986F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		81CC06AD28C6D5A9002A986F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		81CC06AE28C6D951002A986F /* LocalizableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableViewController.swift; sourceTree = "<group>"; };
+		81CC06B328C6E0D0002A986F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81CC06B528C6E0D1002A986F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81CC06B628C6E0D1002A986F /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81CFA59F28C1865E00C1C04A /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +103,19 @@
 				817AAE8328BD94D000D5D870 /* SceneDelegate.swift */,
 				817AAE8528BD94D000D5D870 /* ViewController.swift */,
 				817AAE8728BD94D000D5D870 /* Main.storyboard */,
+				81CC06AE28C6D951002A986F /* LocalizableViewController.swift */,
+				817CA62C28C05AE400E40423 /* LottoViewController.swift */,
+				817CA62828C0484700E40423 /* LoginViewController.swift */,
+				817CA62A28C049FC00E40423 /* LoginViewModel.swift */,
 				817AAE8A28BD94D200D5D870 /* Assets.xcassets */,
 				817AAE8C28BD94D200D5D870 /* LaunchScreen.storyboard */,
 				817AAE8F28BD94D200D5D870 /* Info.plist */,
+				81CC06B428C6E0D0002A986F /* InfoPlist.strings */,
 				817AAE9F28BDB75800D5D870 /* URLSession + Extension.swift */,
 				817CA5D728BEF8D000E40423 /* Observable.swift */,
+				817CA62628C037F400E40423 /* Sample.swift */,
+				81CFA59F28C1865E00C1C04A /* GCDViewController.swift */,
+				81CC06AB28C6D595002A986F /* Localizable.strings */,
 			);
 			path = SeSACWeek9;
 			sourceTree = "<group>";
@@ -90,6 +125,7 @@
 			children = (
 				817AAE9628BD94EC00D5D870 /* LottoAPIManager.swift */,
 				817AAE9828BD9BC200D5D870 /* Lotto.swift */,
+				817CA62E28C05C1900E40423 /* LottoViewModel.swift */,
 			);
 			path = Lotto;
 			sourceTree = "<group>";
@@ -146,6 +182,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
+				ja,
 			);
 			mainGroup = 817AAE7528BD94D000D5D870;
 			productRefGroup = 817AAE7F28BD94D000D5D870 /* Products */;
@@ -163,8 +201,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				817AAE8E28BD94D200D5D870 /* LaunchScreen.storyboard in Resources */,
+				81CC06A928C6D595002A986F /* Localizable.strings in Resources */,
 				817AAE8B28BD94D200D5D870 /* Assets.xcassets in Resources */,
 				817AAE8928BD94D000D5D870 /* Main.storyboard in Resources */,
+				81CC06B228C6E0D0002A986F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,16 +215,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817CA62928C0484700E40423 /* LoginViewController.swift in Sources */,
 				817AAE8628BD94D000D5D870 /* ViewController.swift in Sources */,
 				817CA5DA28BEFC0F00E40423 /* PersonViewModel.swift in Sources */,
+				817CA62D28C05AE400E40423 /* LottoViewController.swift in Sources */,
 				817AAE9928BD9BC200D5D870 /* Lotto.swift in Sources */,
+				817CA62F28C05C1900E40423 /* LottoViewModel.swift in Sources */,
 				817AAE8228BD94D000D5D870 /* AppDelegate.swift in Sources */,
 				817AAE9C28BDA73500D5D870 /* PersonAPIManager.swift in Sources */,
 				817CA5D828BEF8D000E40423 /* Observable.swift in Sources */,
 				817AAE9E28BDA88400D5D870 /* Person.swift in Sources */,
+				817CA62B28C049FC00E40423 /* LoginViewModel.swift in Sources */,
 				817AAE8428BD94D000D5D870 /* SceneDelegate.swift in Sources */,
 				817AAEA028BDB75800D5D870 /* URLSession + Extension.swift in Sources */,
+				817CA62728C037F400E40423 /* Sample.swift in Sources */,
 				817AAE9728BD94EC00D5D870 /* LottoAPIManager.swift in Sources */,
+				81CFA5A028C1865E00C1C04A /* GCDViewController.swift in Sources */,
+				81CC06AF28C6D951002A986F /* LocalizableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +242,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				817AAE8828BD94D000D5D870 /* Base */,
+				811925DA28C6D03900A190A8 /* ko */,
+				81CC06A328C6D094002A986F /* ja */,
+				81CC06A628C6D1A8002A986F /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -203,8 +253,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				817AAE8D28BD94D200D5D870 /* Base */,
+				811925DB28C6D03900A190A8 /* ko */,
+				81CC06A428C6D094002A986F /* ja */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		81CC06AB28C6D595002A986F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81CC06AA28C6D595002A986F /* ko */,
+				81CC06AC28C6D5A9002A986F /* en */,
+				81CC06AD28C6D5A9002A986F /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		81CC06B428C6E0D0002A986F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81CC06B328C6E0D0002A986F /* en */,
+				81CC06B528C6E0D1002A986F /* ja */,
+				81CC06B628C6E0D1002A986F /* ko */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -214,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -274,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  SeSACWeek9
+
+  Created by 권민서 on 2022/09/06.
+  
+*/
+
+
+
+"CFBundleDisplayName" = "나의 다이어리";
+"NSLocationWhenInUseUsageDescription" = "권한 이러쿵 저러쿵";
